@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>航空管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+    <link rel="stylesheet" type="text/css" href="css/myflight.css">
+</head>
+<body>
+<!-- S=标题 -->
+    <header id="title">
+        <div class="title_content">
+            <div class="float_l ">
+                <ul >
+                    <li><a href="#">已登录</a></li>
+                    <li><a href="#" class="register_btn">注册</a></li>
+                </ul>
+            </div>
+            <div class="float_r">
+                <ul>
+                    <li><a href="#">我的航班</a></li><span class="title_line"></span>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- E=标题 -->
+<!-- S-搜索栏 -->
+    <div id="search">
+        <div class="search_wrapper float_r">
+            <input type="text" name="" value="请输入关键字" class="search_bar float_l"><input type="submit" name="" value="搜索" class="search_btn float_l white">
+        </div>
+    </div>
+<!-- E-搜索栏 -->
+<!-- S-导航栏 -->
+    <nav id="nav">
+        <ul  class="font16px">
+            <li class="nav_tag"><a href="index.htm">首页</a></li><li class="nav_tag">
+            <a href="#">预定行程</a></li><li class="nav_tag">
+            <a href="#">服务大厅</a></li><li class="nav_tag">
+            <a href="#">停班时间</a></li><li class="nav_tag">
+            <a href="#">购票安全</a></li><li class="nav_tag">
+            <a href="#">出行帮助</a></li>
+        </ul>
+    </nav>
+<!-- E-导航栏 -->
+<!-- S-我的航班 -->
+    <div class="myflight font20px">
+        我的航班
+    </div>
+    <div class="myposition">
+        <span>您当前的位置：</span>&nbsp;&nbsp;<a href="index.htm">首页</a><span>></span><a href="myflight.html">我的航班</a>
+    </div>
+    <div class="myorderTip">
+        <span>支票订单提醒：</span> &nbsp;&nbsp;&nbsp;<a href="#"><span>待支付订单(</span><span>0</span><span>)</span></a>&nbsp;&nbsp;&nbsp;
+        <a href="#"><span>退票中订单(</span><span>0</span><span>)</span></a>
+    </div>
+
+    <div class="myflight_imformation_wrapper">
+        <div class="myflight_subnav">
+            <div class="myflight_subnav_wrapper">
+                <div class="myflight_subnav_tab">
+                    订单管理
+                </div>
+                <ul class="black">
+                        <li><a href="#" class="black">机票订单</a></li>
+                        <li><a href="#" class="black">申诉订单</a></li>
+                </ul>
+            </div>
+            <div style="width:180px; height: 1px;">
+
+            </div>
+            <div class="myflight_subnav_wrapper">
+                <div class="myflight_subnav_tab">
+                    个人中心
+                </div>
+                <ul class="black">
+                        <li><a href="#" class="black">常用联系人</a></li>
+                        <li style="border-bottom: 1px solid #0093d0;"><a href="#" class="black">个人信息</a></li>
+                </ul>
+            </div>
+            <div class="twoBarCode">
+                <div class="twoBarCode_img">
+                    <img src="images/870eed8d509485b996a47cdcfc997d02.png" alt="">
+                </div>
+                <div class="twoBarCode_header">
+                    掌上航空
+                </div>
+                <div class="twoBarCode_wrapper">
+                    <div class="twoBarCode_main">
+                        <img src="images/twobarcode.png" alt="手机端二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="myflight_content float_r">
+            <div class="myAllOrder font20px">
+                我的所有订单
+            </div>
+            <ul class="tbody font15px">
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                            订单号
+                        </div>
+                        <div class="order_bottom blue">
+                            10394084737
+                        </div>
+
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                            姓名
+                        </div>
+                        <div class="order_bottom blue">
+                            曹俊
+                        </div>
+
+                </li>
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_r" style="line-height: 60px; text-align: center;">
+                    <a href="">取消订单</a>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            中转
+                        </div>
+                        <div class="order_bottom blue">
+                            否
+                        </div>
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!-- E-我的航班         -->
+<!-- S-登录 -->
+    <div>
+        <div id="login">
+        <div class="login_title font20px">
+            <span>会员登录</span>
+            <div class="close_btn">
+            </div>
+        </div>
+        <div class="login_content">
+            <form action="index_submit" method="get" accept-charset="utf-8"  class="login_form">
+                <div class="login_page">
+                    <div class="login_img_wrapper">
+                        <div class="login_img">
+                        </div>
+                    </div>
+                    <input type="text" name="" class="login_input"><br>
+                </div>
+                <div class="login_page">
+                    <div class="login_img_wrapper">
+                        <div class="login_password">
+
+                        </div>
+                    </div>
+                    <input type="text" name="" class="login_input"><br>
+                </div>
+                <span class="float_r"><a href="#" style="margin-bottom:10px;">忘记密码</a></span><br>
+                <input type="submit" name="" value="登录" class="login_btn"><br><br>
+                <span class="float_r" ><a href="#" class="register font16px">我要去注册</a></span><br>
+            </form>
+            <form action="index_submit" method="get" accept-charset="utf-8" class="register_form">
+                <span>账号:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>密码:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>姓名:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>性别:</span>&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="male" checked="checked">男&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="female">女<br>
+                <span>身份证号码:</span>&nbsp;<input type="text" name="" class="register_input_id"><br>
+                <span>手机号码:</span>&nbsp;<input type="text" name="" class="register_input_tel"><br>
+                <input type="submit" name="" value="注册" class="login_btn"><br>
+                <div class="provisions gray">
+                    <input type="checkbox" name="" checked="checked">
+                    我已阅读并同意 <a href="#">服务条款</a>
+                </div>
+                <a href="#" class="ihavaaccount font16px float_r">我已经有账号</a><br><br>
+            </form>
+        </div>
+    </div>
+    </div>
+<!-- E-登录 -->
+<!-- S-页脚 -->
+<footer class="footer">
+            Copyright(C)1997-2017 胜利航空股份有限公司 版权所有 粤ICP备05053330号
+</footer>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/myflight.js"></script>
+</body>
+</html>

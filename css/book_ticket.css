@@ -1,0 +1,204 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-10 16:05:39
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-16 11:20:48
+*/
+.progressBar{
+    margin: 50px auto;
+    width: 1200px;
+    height: 60px;
+}
+.progressBar li{
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 60px;
+    text-align: center;
+}
+.barNum{
+    margin: 0 auto;
+    width: 38px;
+    height: 38px;
+    font-weight: bold;
+    background: #0093d0;
+    line-height:38px;
+    text-align: center;
+}
+.progressLine{
+    position: absolute;
+    left: 139px;
+    top: 19px;
+    width: 202px;
+    height: 0px;
+    border: 1px dotted #7d7d7d;
+}
+.reseek{
+    margin: 0 auto;
+    width:1200px;
+    height: 87px;
+}
+.reseek_tab{
+    margin: 0 auto;
+    width:1200px;
+    height: 40px;
+    background:#40B5E2;
+}
+.reseek_content{
+    margin: 0 auto;
+    width:1200px;
+    height: 47px;
+    background: yellow;
+}
+.priceTable{
+    margin: 0 auto;
+    width: 1200px;
+}
+.book{
+    float: none;
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    // border-top: 2px solid #0093d0;
+}
+.head{
+    margin: 0 auto;
+    width: 1200px;
+    height: 60px;
+    color: #fff;
+    background: #0093d0;
+}
+.head li{
+    float: left;
+}
+.head_path{
+    width: 720px;
+    height: 60px;
+}
+.head_price{
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.tbody{
+    // float: left;
+    padding: 20px 0;
+    margin: 1px 0;
+    width: 1200px;
+    height: 60px;
+    border-bottom: 1px solid #0093d0;
+}
+.tbody li{
+    float: left;
+}
+.tbody_path{
+    width: 720px;
+    height: 60px;
+}
+.tbody_price{
+    width: 160px;
+    height: 60px;
+}
+.path_wrapper{
+
+    width: 240px;
+    height: 60px;
+}
+.path_time{
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    color: #6a6a6a;
+}
+.path_city{
+    width: 240px;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+}
+.plane_wrapper{
+    width: 100px;
+    height: 60px;
+}
+.plane_flight{
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0093d0;
+    border-bottom: 2px solid #0093d0;
+
+}
+.plane_model{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.price_num{
+    width:160px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #6a6a6a;
+    font-size: 22px;
+
+}
+.price_btn{
+    margin: 6px 71px;
+    width:18px;
+    height: 18px;
+    background: url("../images/flight.png") 0 -39px no-repeat;
+}
+.price_click .price_btn{
+    margin: 6px 71px;
+    width:18px;
+    height: 18px;
+    background: url("../images/flight.png") 0 -89px no-repeat;
+}
+.odd{
+    background: #ffffff;
+}
+.even{
+    background: #F0FAFD;
+}
+.tbody_book{
+    display: none;
+    // margin: 20px 0;
+    // float: left;
+    padding: 10px;
+    width: 1178px;
+    height: 70px;
+    border-width: 2px 1px 1px 1px;
+    border-style: solid;
+    border-color: #0093d0;
+    background: #FFFFE0;
+}
+.book_page{
+    padding: 20px 0;
+    width: 150px;
+    height: 30px;
+    font-size:20px;
+    color: #666;
+    text-align: center;
+    line-height: 30px;
+}
+.book_btn{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    background: red;
+}
+.book_btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,81 @@
+.flight_imformation{
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 1200px;
+    height: 60px;
+    border-bottom: 1px dashed #999999;
+}
+.passenger_wrapper{
+    margin: 10px auto;
+    margin-top: none;
+    padding: 10px 20px;
+    width: 1160px;
+    height: 100px;
+    background: #eaf8fe;
+}
+.passenger_top{
+    padding: 5px 0;
+    width: 1160px;
+    height: 30px;
+
+}
+.passenger_top select,input{
+    padding: 3px 5px;
+    height: 30px;
+    border: 1px solid #7d7d7d;
+}
+.passenger_top span{
+    line-height: 30px;
+}
+.passenger_top li{
+    float: left;
+}
+.passenger_top li.passenger_delete{
+    display: none;
+    margin-left: 200px;
+}
+.passenger_bottom{
+    padding: 5px 0;
+    width: 1160px;
+    height: 50px;
+    line-height: 50px;
+}
+.passenger_bottom span{
+    display: inline-block;
+}
+.passenger_btn{
+    vertical-align:middle;
+}
+
+.addPassenger{
+    display: block;
+    margin: 32px auto;
+    height: 36px;
+    width: 150px;
+    line-height: 36px;
+    text-align: center;
+}
+.addPassenger:hover{
+    cursor: pointer;
+}
+.pageTurn{
+    margin: 20px auto;
+    width: 320px;
+    height: 36px;
+}
+.pageTurn a{
+    display: block;
+    float: left;
+    margin: 0 5px;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: red;
+}
+.pageTurn a.pageTurn_prev{
+    background: #7d7d7d;
+}
+.pageTurn a:hover{
+    cursor: pointer;
+}

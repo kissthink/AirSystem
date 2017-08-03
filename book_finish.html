@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>预定航班-旅客信息</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/myflight.css">
+    <link rel="stylesheet" type="text/css" href="css/book_ticket.css">
+    <link rel="stylesheet" type="text/css" href="css/book_finish.css">
+</head>
+<body>
+<!-- S=标题 -->
+    <header id="title">
+        <div class="title_content">
+            <div class="float_l ">
+                <ul >
+                    <li><a href="#" class="login">已登录</a></li>
+                    <li><a href="#" class="register_btn">注册</a></li>
+                </ul>
+            </div>
+            <div class="float_r">
+                <ul>
+                    <li><a href="myflight.html">我的航班</a></li><span class="title_line"></span>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- E=标题 -->
+<!-- S-搜索栏 -->
+    <div id="search">
+        <div class="search_wrapper float_r">
+            <input type="text" name="" value="" placeholder="请输入关键字" class="search_bar float_l"><input type="submit" name="" value="搜索" class="search_btn white float_l">
+        </div>
+    </div>
+<!-- E-搜索栏 -->
+<!-- S-导航栏 -->
+    <nav id="nav">
+        <ul  class="font16px">
+            <li class="nav_tag"><a href="index.htm" class="home">首页</a></li><li class="nav_tag">
+            <a href="#">预定行程</a></li><li class="nav_tag">
+            <a href="#">服务大厅</a></li><li class="nav_tag">
+            <a href="#">停班时间</a></li><li class="nav_tag">
+            <a href="#">购票安全</a></li><li class="nav_tag">
+            <a href="#">出行帮助</a></li>
+        </ul>
+    </nav>
+<!-- E-导航栏 -->
+<!-- S-进度条 -->
+    <div class="progressBar">
+        <ul class="font16px">
+            <li>
+                <div class="barNum white font18px">
+                      1
+                </div>
+                    航班查询
+                <div class="progressLine">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      2
+                </div>
+                    航班选择
+                <div class="progressLine font18px">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px" >
+                      3
+                </div>
+                    旅客信息
+                <div class="progressLine">
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      4
+                </div>
+                    支付订单
+                <div class="progressLine">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px"  style="background:red;">
+                      5
+                </div>
+                    完成支付
+            </li>
+
+        </ul>
+    </div>
+<!-- E-进度条 -->
+    <div class="finish">
+       <span class="font25px blue">支付完成</span><br><br>
+       <span class="font20px deepGray">将在&nbsp;<span id="turn_time" class="red font18px">5</span>&nbsp;秒后返回主页，若系统没有反应，请直接按<a class="backHome" href="index.htm">跳转</a></span>
+    </div>
+<!-- S-翻页 -->
+    <div class="pageTurn">
+        <a href="book_imformation.html" class="pageTurn_prev white font18px">上一步</a>
+        <a  class="pageTurn_next white font18px">下一步</a>
+    </div>
+<!-- E-翻页 -->
+<!-- S-撑大盒子 -->
+    <div style="height: 200px; width: 1200px; margin: 0 auto;">
+
+    </div>
+<!-- E-撑大盒子 -->
+<!-- S-页脚 -->
+<footer class="footer">
+            Copyright(C)1997-2017 胜利航空股份有限公司 版权所有 粤ICP备05053330号
+</footer>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/book_finish.js"></script>
+</body>
+</html>

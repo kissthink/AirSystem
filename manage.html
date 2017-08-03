@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>航空管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+    <link rel="stylesheet" type="text/css" href="css/myflight.css">
+    <link rel="stylesheet" type="text/css" href="css/manage.css">
+</head>
+<body>
+<!-- S=标题 -->
+    <header id="title">
+        <div class="title_content">
+            <div class="float_l ">
+                <ul >
+                    <li><a href="#" class="login">已登录</a></li>
+                    <li><a href="#" class="register_btn">注册</a></li>
+                </ul>
+            </div>
+            <div class="float_r">
+                <ul>
+                    <li><a href="#">管理员中心</a></li><span class="title_line"></span>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- E=标题 -->
+<!-- S-搜索栏 -->
+    <div id="search">
+        <div class="search_wrapper float_r" style="width: 500px;">
+            <select name="" class="manage_select float_l">
+                <option value="">订单号</option>
+                <option value="">姓名</option>
+                <option value="">身份证号</option>
+                <option value="">其他证件</option>
+            </select>
+            <input type="text" name="" value="" placeholder="请输入关键字" class="search_bar float_l"><input type="submit" name="" value="搜索" class="search_btn white float_l">
+        </div>
+    </div>
+<!-- E-搜索栏 -->
+<!-- S-管理主体页面 -->
+    <div class="myflight font20px">
+        航班管理
+    </div>
+    <div class="myflight_imformation_wrapper">
+        <div class="myflight_subnav">
+            <div class="myflight_subnav_wrapper">
+                <div class="myflight_subnav_tab">
+                    航班操作
+                </div>
+                <ul class="black">
+                        <li><a href="#" class="black">增加航班</a></li>
+                        <li><a href="#" class="black">出错处理</a></li>
+                </ul>
+            </div>
+            <div style="width:180px; height: 1px;">
+
+            </div>
+            <div class="myflight_subnav_wrapper">
+                <div class="myflight_subnav_tab">
+                    订单处理
+                </div>
+                <ul class="black">
+                        <li><a href="#" class="black">退票</a></li>
+                        <li style="border-bottom: 1px solid #0093d0;"><a href="#" class="black">退款</a></li>
+                </ul>
+            </div>
+            <div class="twoBarCode">
+                <div class="twoBarCode_img">
+                    <img src="images/870eed8d509485b996a47cdcfc997d02.png" alt="">
+                </div>
+                <div class="twoBarCode_header">
+                    掌上航空
+                </div>
+                <div class="twoBarCode_wrapper">
+                    <div class="twoBarCode_main">
+                        <img src="images/twobarcode.png" alt="手机端二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="manage_tab float_r deepGray">
+            <ul>
+                <li class="manage_tab_bright">修删航班</li>
+                <li>增加航班</li>
+            </ul>
+        </div>
+        <div class="manage_myflight_content float_r">
+
+            <ul class="tbody font15px">
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        头等舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥3008
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        公务舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥2100
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        经济舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥1089
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            <a href="#">修改</a>
+                        </div>
+                        <div class="order_bottom">
+                            <a href="#">删除</a>
+                        </div>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+<!-- 航班2 -->
+            <ul class="tbody font15px">
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        头等舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥3008
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        公务舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥2100
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        经济舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥1089
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            <a href="#">修改</a>
+                        </div>
+                        <div class="order_bottom">
+                            <a href="#">删除</a>
+                        </div>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+<!-- 航班3 -->
+            <ul class="tbody font15px">
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        头等舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥3008
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        公务舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥2100
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        经济舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥1089
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            <a href="#">修改</a>
+                        </div>
+                        <div class="order_bottom">
+                            <a href="#">删除</a>
+                        </div>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+<!-- 航班4 -->
+            <ul class="tbody font15px">
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        头等舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥3008
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        公务舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥2100
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        经济舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥1089
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            <a href="#">修改</a>
+                        </div>
+                        <div class="order_bottom">
+                            <a href="#">删除</a>
+                        </div>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+<!-- 航班5 -->
+            <ul class="tbody font15px">
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        头等舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥3008
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        公务舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥2100
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        经济舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥1089
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            <a href="#">修改</a>
+                        </div>
+                        <div class="order_bottom">
+                            <a href="#">删除</a>
+                        </div>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+<!-- 航班6 -->
+            <ul class="tbody font15px">
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        头等舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥3008
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        公务舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥2100
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        经济舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥1089
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            <a href="#">修改</a>
+                        </div>
+                        <div class="order_bottom">
+                            <a href="#">删除</a>
+                        </div>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+<!-- 航班7 -->
+            <ul class="tbody font15px">
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        头等舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥3008
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        公务舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥2100
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        经济舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥1089
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            <a href="#">修改</a>
+                        </div>
+                        <div class="order_bottom">
+                            <a href="#">删除</a>
+                        </div>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+<!-- 航班8 -->
+            <ul class="tbody font15px">
+                <li class="tbody_path float_l">
+
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        头等舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥3008
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        公务舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥2100
+                        </div>
+                </li>
+                <li class="order_wrapper float_l">
+                    <div class="order_top">
+                        经济舱
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥1089
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            <a href="#">修改</a>
+                        </div>
+                        <div class="order_bottom">
+                            <a href="#">删除</a>
+                        </div>
+                </li>
+                <li class="order_wrapper red float_r font20px" style="line-height: 60px; text-align: center;">
+                    ￥1000
+                </li>
+                 <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            到达
+                        </div>
+                        <div class="order_bottom blue">
+                            广州白云山机场
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            出发
+                    </div>
+                    <div class="order_bottom blue">
+                            北京国际机场
+                    </div>
+                </li>
+            </ul>
+            <div class="addFlight">
+                <table class="addTable">
+                    <tbody class="blue">
+                        <tr>
+                            <td class="red">航班编号：<input type="text" name="" style="margin-left: 13px"></td>
+                            <td>出发时间：<input type="text" name="" style="margin-left: 13px"></td>
+                            <td>到达时间：<input type="text" name="" style="margin-left: 13px"></td>
+
+                        </tr>
+                        <tr>
+                            <td>出发机场：<input type="text" name="" style="margin-left: 13px"></td>
+                            <td>到达机场：<input type="text" name="" style="margin-left: 13px"></td>
+                            <td>余票：<input type="text" name="" style="margin-left: 40px"></td>
+                        </tr>
+                        <tr>
+                            <td>经济舱价格：<input type="text" name=""></td>
+                            <td>公务舱价格：<input type="text" name=""></td>
+                            <td>头等舱价格：<input type="text" name=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="add_submit">
+                    <input type="submit" name="" value="确认添加" class="white">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- E-管理主体页面 -->
+<!-- S-页脚 -->
+<footer class="footer">
+            Copyright(C)1997-2017 胜利航空股份有限公司 版权所有 粤ICP备05053330号
+</footer>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/manage.js"></script>
+</body>
+</html>

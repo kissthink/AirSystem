@@ -1,0 +1,80 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-16 15:39:22
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-16 17:30:58
+*/
+.manage_select{
+    margin-top: 1px;
+    margin-left: 5px;
+    height: 33px;
+    width: 90px;
+    text-align: center;
+    line-height: 33px;
+    border: 1px solid #9999;
+}
+.manage_tab{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 1000px;
+    height: 42px;
+    border-bottom: 3px solid #999;
+}
+.manage_tab li{
+    float: left;
+    width: 100px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
+}
+.manage_tab_bright{
+    color: red;
+    border-bottom: 3px solid red;
+}
+.manage_myflight_content{
+    position: absolute;
+    left: 200px;
+    top: 45px;
+    width: 1000px;
+    height:700px;
+    overflow: auto;
+}
+.addFlight{
+    display: none;
+    padding: 20px 20px;
+    margin: 1px 0;
+    width: 958px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px #999999;
+}
+.addTable{
+    display: block;
+    margin-bottom: 10px;
+}
+.addTable tr{
+    display: inline-block;
+    width: 958px;
+}
+.addTable td{
+    width: 319px;
+    height: 40px
+}
+.addTable input{
+    padding: 2px 5px;
+    width: 100px;
+    border: 1px solid #999999;
+}
+.add_submit{
+    width: 958px;
+    height: 30px;
+}
+.add_submit input{
+    margin: 0 404px;
+    width: 150px;
+    height: 30px;
+    background: red;
+    cursor: pointer;
+}

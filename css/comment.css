@@ -1,0 +1,57 @@
+.float_l{
+    float: left;
+}
+.float_r{
+    float: right;
+}
+.page{
+    color:#901D78;
+}
+.font15px{
+    font-size: 15px;
+}
+.font16px{
+    font-size:16px;
+}
+.font18px{
+    font-size:18px;
+}
+.font20px{
+    font-size:20px;
+}
+.font23px{
+    font-size:23px;
+}
+.font25px{
+    font-size: 25px;
+}
+.font30px{
+    font-size:30px;
+}
+.red{
+    color:red;
+}
+.white{
+    color:#ffffff;
+}
+.ddd{
+    color: #6a6a6a;
+}
+.black{
+    color: #000;
+}
+.gray{
+    color: #999999;
+}
+.deepGray{
+    color: #7d7d7d;
+}
+.blue{
+    color:#0093d0
+}
+.red{
+    color:red;
+}
+.bgColorBlue{
+    background-color: #0093d0;
+}

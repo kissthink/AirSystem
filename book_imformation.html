@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>预定航班-旅客信息</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/myflight.css">
+    <link rel="stylesheet" type="text/css" href="css/book_imformation.css">
+    <link rel="stylesheet" type="text/css" href="css/book_ticket.css">
+</head>
+<body>
+<!-- S=标题 -->
+    <header id="title">
+        <div class="title_content">
+            <div class="float_l ">
+                <ul >
+                    <li><a href="#" class="login">已登录</a></li>
+                    <li><a href="#" class="register_btn">注册</a></li>
+                </ul>
+            </div>
+            <div class="float_r">
+                <ul>
+                    <li><a href="myflight.html">我的航班</a></li><span class="title_line"></span>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- E=标题 -->
+<!-- S-搜索栏 -->
+    <div id="search">
+        <div class="search_wrapper float_r">
+            <input type="text" name="" value="" placeholder="请输入关键字" class="search_bar float_l"><input type="submit" name="" value="搜索" class="search_btn float_l white">
+        </div>
+    </div>
+<!-- E-搜索栏 -->
+<!-- S-导航栏 -->
+    <nav id="nav">
+        <ul  class="font16px">
+            <li class="nav_tag"><a href="index.htm">首页</a></li><li class="nav_tag">
+            <a href="#">预定行程</a></li><li class="nav_tag">
+            <a href="#">服务大厅</a></li><li class="nav_tag">
+            <a href="#">停班时间</a></li><li class="nav_tag">
+            <a href="#">购票安全</a></li><li class="nav_tag">
+            <a href="#">出行帮助</a></li>
+        </ul>
+    </nav>
+<!-- E-导航栏 -->
+<!-- S-进度条 -->
+    <div class="progressBar">
+        <ul class="font16px">
+            <li>
+                <div class="barNum white font18px">
+                      1
+                </div>
+                    航班查询
+                <div class="progressLine">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      2
+                </div>
+                    航班选择
+                <div class="progressLine font18px">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px" style="background:red;">
+                      3
+                </div>
+                    旅客信息
+                <div class="progressLine">
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px"">
+                      4
+                </div>
+                    支付订单
+                <div class="progressLine">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      5
+                </div>
+                    完成支付
+            </li>
+
+        </ul>
+    </div>
+<!-- E-进度条 -->
+<!-- S-航班信息 -->
+    <div class="myflight font20px">
+        航班信息
+    </div>
+        <ul class="flight_imformation font15px">
+                <li>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            07:30
+                        </div>
+                        <div class="order_bottom blue">
+                            北京
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="plane_flight">
+                            cz4300
+                        </div>
+                        <div class="plane_model blue">
+                            波音747
+                        </div>
+                    </div>
+                    <div class="order_wrapper float_l">
+                        <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_r" style="line-height: 60px; text-align: center;">
+                    <a href="">修改航班</a>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            总价
+                        </div>
+                        <div class="order_bottom red">
+                            ￥1000
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            保险费
+                        </div>
+                        <div class="order_bottom blue">
+                        ￥60
+                        </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                        机场税
+                    </div>
+                    <div class="order_bottom blue">
+                        ￥100
+                    </div>
+                </li>
+
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                        燃油费
+                    </div>
+                    <div class="order_bottom blue">
+                        ￥0
+                    </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                        旅客
+                    </div>
+                    <div class="order_bottom blue">
+                        成人X<span>1</span>
+                    </div>
+                </li>
+            </ul>
+<!-- E-航班信息 -->
+
+<!-- S-添加乘机人 -->
+
+    <div class="myflight font20px">
+        乘机人信息
+    </div>
+    <div class="passenger">
+        <div class='passenger_wrapper'>
+            <div class="passenger_top">
+                <ul>
+                    <li><select name="">
+                        <option value="">成人</option>
+                        <option value="">儿童</option>
+                    </select> &nbsp;
+                    </li>
+                    <li><span class="red">*</span><span class="">姓&nbsp;&nbsp;&nbsp;&nbsp;名</span><input type="text" name=""></li>&nbsp;&nbsp;
+                    <li>
+                        <span class="red">&nbsp;&nbsp;&nbsp;&nbsp;*</span>
+                        <span>证&nbsp;&nbsp;&nbsp;&nbsp;件</span>
+                        <select name="">
+                        <option value="">身份证</option>
+                        <option value="">护照</option>
+                        <option value="">其他证件</option>
+                        </select>&nbsp;
+                        <input type="text" name="">
+                    </li>
+                    <li class="passenger_delete">
+                        <a href="#" class="red">删除</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="passenger_bottom">
+                        <span style="margin-left: 100px;">保险</span>&nbsp;&nbsp;
+                        <input type="checkbox" name="" class="passenger_btn">
+                        <span>航空综合险 &nbsp;&nbsp;</span>￥<span>30</span><span>/份</span>
+                        <span>最高赔付￥200万</span>
+                        <span>含财产损失、意外保险、航班延误等项目</span>
+            </div>
+        </div>
+    </div>
+    <input type="button" name="" value="添加新乘机人" class="addPassenger bgColorBlue white font18px">
+<!-- E-添加乘机人 -->
+<!-- S-翻页 -->
+    <div class="pageTurn">
+        <a href="book_ticket.htm" class="pageTurn_prev white font18px">上一步</a>
+        <a href="book_pay.html"  class="pageTurn_next white font18px">下一步</a>
+    </div>
+
+<!-- E-翻页 -->
+<!-- S-页脚 -->
+<footer class="footer">
+            Copyright(C)1997-2017 胜利航空股份有限公司 版权所有 粤ICP备05053330号
+</footer>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/book_imformation.js"></script>
+</body>
+</html>

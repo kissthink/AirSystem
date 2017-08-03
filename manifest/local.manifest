@@ -1,0 +1,13 @@
+CACHE MANIFEST
+#version 1.0
+CACHE:
+images/banner_1.jpg
+images/banner_2.jpg
+images/banner_3.jpg
+images/banner_4.jpg
+images/banner_5.jpg
+
+NETWORK:
+*
+
+

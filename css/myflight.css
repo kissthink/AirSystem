@@ -1,0 +1,197 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-13 15:52:18
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-16 17:09:26
+*/
+.myflight{
+    margin:10px auto;
+    margin-bottom: none;
+    width: 1160px;
+    height: 45px;
+    padding: 0 20px;
+    line-height: 45px;
+    color: #fff;
+    text-align: left;
+    background: #0093d0;
+}
+.myposition{
+    margin: 10px auto;
+    width: 1180px;
+    height: 45px;
+    padding-left: 20px;
+    line-height: 45px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+.myorderTip{
+    margin: 10px auto;
+    width: 1180px;
+    height: 45px;
+    padding-left: 20px;
+    line-height: 45px;
+    text-align: left;
+    background: #f0fafd;
+}
+.myflight_imformation_wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+}
+.myflight_subnav{
+    margin-right: 20px;
+    width: 180px;
+}
+.myflight_subnav_tab{
+    width: 180px;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    background: #0093d0;
+}
+.myflight_subnav ul{
+    display: none;
+}
+.myflight_subnav li{
+    width: 178px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    background: #fff;
+    border-left: 1px solid #0093d0;
+    border-right: 1px solid #0093d0;
+}
+.twoBarCode{
+    position: relative;
+    float: right;
+    margin-top: 60px;
+    padding-top: 30px;
+    width: 180px;
+}
+.twoBarCode_img{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 110px;
+    height: 110px;
+    z-index: -1;
+}
+.twoBarCode_header{
+    background: #0093d0 none repeat scroll 0 0;
+    color: white;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.twoBarCode_wrapper{
+    padding: 5px;
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    background: #0093d0 none repeat scroll 0 0;
+}
+.twoBarCode_main{
+    height: 170px;
+    width: 170px;
+    background: #fff;
+}
+.twoBarCode_main img{
+    width: 100%;
+    height: 100%;
+}
+.myflight_content{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 1000px;
+    height:700px;
+    overflow: auto;
+}
+
+.myAllOrder{
+    padding-left: 20px;
+    width: 980px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    text-align: left;
+    background: #0093d0;
+}
+// .orderStatu{
+//     padding-left: 20px;
+//     width: 980px;
+//     height: 60px;
+//     line-height: 60px;
+//     color: #fff;
+//     text-align: left;
+//     background: #0093d0;
+// }
+
+.tbody{
+    padding: 20px 0;
+    margin: 1px 0;
+    width: 1000px;
+    height: 60px;
+    border-bottom: 1px solid #0093d0;
+}
+.tbody li{
+}
+.tbody_path{
+    width: 300px;
+    height: 60px;
+}
+.tbody_price{
+    width: 160px;
+    height: 60px;
+}
+.order_wrapper{
+    width: 100px;
+    height: 60px;
+}
+.order_top{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #6a6a6a;
+}
+.order_bottom{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.order_num{
+    padding-left: 20px;
+    width: 150px;
+    height: 60px;
+    line-height:60px;
+    text-align: left;;
+}
+.plane_flight{
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0093d0;
+    border-bottom: 2px solid #0093d0;
+
+}
+.plane_model{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.price_num{
+    width:100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #6a6a6a;
+    font-size: 22px;
+
+}

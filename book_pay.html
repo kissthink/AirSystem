@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>预定航班-旅客信息</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/myflight.css">
+    <link rel="stylesheet" type="text/css" href="css/book_imformation.css">
+    <link rel="stylesheet" type="text/css" href="css/book_ticket.css">
+    <link rel="stylesheet" type="text/css" href="css/book_pay.css">
+</head>
+<body>
+<!-- S=标题 -->
+    <header id="title">
+        <div class="title_content">
+            <div class="float_l ">
+                <ul >
+                    <li><a href="#" class="login">已登录</a></li>
+                    <li><a href="#" class="register_btn">注册</a></li>
+                </ul>
+            </div>
+            <div class="float_r">
+                <ul>
+                    <li><a href="myflight.html">我的航班</a></li><span class="title_line"></span>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- E=标题 -->
+<!-- S-搜索栏 -->
+    <div id="search">
+        <div class="search_wrapper float_r">
+            <input type="text" name="" value="" placeholder="请输入关键字" class="search_bar float_l"><input type="submit" name="" value="搜索" class="search_btn white float_l">
+        </div>
+    </div>
+<!-- E-搜索栏 -->
+<!-- S-导航栏 -->
+    <nav id="nav">
+        <ul  class="font16px">
+            <li class="nav_tag"><a href="index.htm">首页</a></li><li class="nav_tag">
+            <a href="#">预定行程</a></li><li class="nav_tag">
+            <a href="#">服务大厅</a></li><li class="nav_tag">
+            <a href="#">停班时间</a></li><li class="nav_tag">
+            <a href="#">购票安全</a></li><li class="nav_tag">
+            <a href="#">出行帮助</a></li>
+        </ul>
+    </nav>
+<!-- E-导航栏 -->
+<!-- S-进度条 -->
+    <div class="progressBar">
+        <ul class="font16px">
+            <li>
+                <div class="barNum white font18px">
+                      1
+                </div>
+                    航班查询
+                <div class="progressLine">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      2
+                </div>
+                    航班选择
+                <div class="progressLine font18px">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px" >
+                      3
+                </div>
+                    旅客信息
+                <div class="progressLine">
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px"  style="background:red;">
+                      4
+                </div>
+                    支付订单
+                <div class="progressLine">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      5
+                </div>
+                    完成支付
+            </li>
+
+        </ul>
+    </div>
+<!-- E-进度条 -->
+<!-- S-订单信息 -->
+    <div class="myflight font20px">
+        <span>订单信息</span>
+        <span class="float_r">123123094</span>
+        <span class="float_r">订单号 : </span>
+    </div>
+    <ul class="flight_imformation font15px">
+        <li class="order_wrapper float_l">
+                    <div class="order_top">
+                            乘客姓名
+                </div>
+                <div class="order_bottom blue">
+                    曹俊
+                </div>
+            </li>
+            <li>
+            <div class="order_wrapper float_l">
+                <div class="order_top">
+                    07:30
+                </div>
+                <div class="order_bottom blue">
+                    北京
+                </div>
+            </div>
+            <div class="order_wrapper float_l">
+                <div class="plane_flight">
+                    cz4300
+                </div>
+                <div class="plane_model blue">
+                    波音747
+                </div>
+            </div>
+            <div class="order_wrapper float_l">
+                <div class="order_top">
+                            10:30
+                        </div>
+                        <div class="order_bottom blue">
+                            广州
+                        </div>
+                    </div>
+                </li>
+                <li class="order_wrapper float_l" style="width: 200px">
+                    <div class="order_top">
+                        身份证
+                    </div>
+                    <div class="order_bottom blue">
+                        4418199708245635
+                    </div>
+                </li>
+                <li class="order_wrapper float_r">
+                    <div class="order_top">
+                            总价
+                        </div>
+                        <div class="order_bottom red font20px">
+                            ￥1000
+                        </div>
+                </li>
+
+
+            </ul>
+<!-- E-订单信息 -->
+<!-- S-支付 -->
+    <div class="myflight font20px">
+        支付平台
+    </div>
+    <div class="payStyle">
+        <div class="payStyle_wrapper payStyle_bright">
+            <img src="images/yinlian.png" alt="银联支付">
+        </div>
+
+        <div class="payStyle_wrapper ">
+            <img src="images/appliypay.jpg" alt="支付宝支付">
+        </div>
+    </div>
+    <div class="payStyle_passwords font16px">
+        请输入密码： <input type="password" name="">
+    </div>
+<!-- E-支付 -->
+<!-- S-翻页 -->
+    <div class="pageTurn">
+        <a href="book_imformation.html" class="pageTurn_prev white font18px">上一步</a>
+        <a href="book_finish.html" class="pageTurn_next white font18px">下一步</a>
+    </div>
+<!-- E-翻页 -->
+<!-- S-页脚 -->
+<footer class="footer">
+            Copyright(C)1997-2017 胜利航空股份有限公司 版权所有 粤ICP备05053330号
+</footer>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/book_pay.js"></script>
+</body>
+</html>

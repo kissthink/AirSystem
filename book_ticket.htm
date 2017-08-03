@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>航空管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/book_ticket.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+</head>
+<body>
+<!-- S=标题 -->
+    <header id="title">
+        <div class="title_content">
+            <div class="float_l ">
+                <ul >
+                    <li><a href="#">已登录</a></li>
+                    <li><a href="#" class="register_btn">注册</a></li>
+                </ul>
+            </div>
+            <div class="float_r">
+                <ul>
+                    <li><a href="myflight.html">我的航班</a></li><span class="title_line"></span>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- E=标题 -->
+<!-- S-搜索栏 -->
+    <div id="search">
+        <div class="search_wrapper float_r">
+            <input type="text" name="" value="" placeholder="请输入关键字" class="search_bar float_l"><input type="submit" name="" value="搜索" class="search_btn float_l white">
+        </div>
+    </div>
+<!-- E-搜索栏 -->
+<!-- S-导航栏 -->
+    <nav id="nav">
+        <ul class="font16px">
+            <li class="nav_tag"><a href="index.htm">首页</a></li><li class="nav_tag">
+            <a href="#">预定行程</a></li><li class="nav_tag">
+            <a href="#">服务大厅</a></li><li class="nav_tag">
+            <a href="#">停班时间</a></li><li class="nav_tag">
+            <a href="#">购票安全</a></li><li class="nav_tag">
+            <a href="#">出行帮助</a></li>
+        </ul>
+    </nav>
+<!-- E-导航栏 -->
+<!-- S-进度条 -->
+    <div class="progressBar">
+        <ul class="font16px">
+            <li>
+                <div class="barNum white font18px">
+                      1
+                </div>
+                    航班查询
+                <div class="progressLine">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px" style="background:red;">
+                      2
+                </div>
+                    航班选择
+                <div class="progressLine font18px">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      3
+                </div>
+                    旅客信息
+                <div class="progressLine">
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      4
+                </div>
+                    支付订单
+                <div class="progressLine">
+
+                </div>
+            </li>
+            <li>
+                <div class="barNum white font18px">
+                      5
+                </div>
+                    完成支付
+            </li>
+
+        </ul>
+    </div>
+<!-- E-进度条 -->
+<!-- S-重新查找栏 -->
+<!--     <div class="reseek">
+        <div class="reseek_tab">
+            <div class="reseek_tab_btn">
+
+            </div>
+        </div>
+        <div class="reseek_content">
+        </div>
+    </div> -->
+<!-- E-重新查找栏 -->
+<!-- S-价格表 -->
+    <div class="book">
+        <ul class="head font20px">
+            <li class="head_path"></li>
+            <li class="head_price ">头等舱</li>
+            <li class="head_price">公务舱</lolakfi>
+            <li class="head_price">经济舱</li>
+        </ul>
+<!-- 航班1 -->
+        <ul class="tbody">
+            <li class="tbody_path">
+
+                <div class="path_wrapper float_l">
+                    <div class="path_time">
+                        07:30
+                    </div>
+                    <div class="path_city">
+                        广州
+                    </div>
+                </div>
+                <div class="plane_wrapper float_l">
+                    <div class="plane_flight">
+                        cz4300
+                    </div>
+                    <div class="plane_model">
+                        波音747
+                    </div>
+                </div>
+                <div class="path_wrapper float_l">
+                    <div class="path_time">
+                        10:30
+                    </div>
+                    <div class="path_city">
+                        北京
+                    </div>
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥2000
+                </div>
+                <div class="price_btn">
+
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1180
+                </div>
+                <div class="price_btn">
+
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1000
+                </div>
+                <div class="price_btn">
+
+                </div>
+            </li>
+        </ul>
+        <div class="tbody_book">
+                <div class="plane_index book_page float_l">
+                </div>
+                <input type="botton" name="" class="book_btn float_r" value="预定">
+                <div class="price_index book_page float_r">
+                </div>
+        </div>
+<!-- 航班2 -->
+        <ul class="tbody">
+            <li class="tbody_path">
+
+                <div class="path_wrapper float_l">
+                    <div class="path_time">
+                        07:30
+                    </div>
+                    <div class="path_city">
+                        广州
+                    </div>
+                </div>
+                <div class="plane_wrapper float_l">
+                    <div class="plane_flight">
+                        cz4300
+                    </div>
+                    <div class="plane_model">
+                        波音747
+                    </div>
+                </div>
+                <div class="path_wrapper float_l">
+                    <div class="path_time font30px">
+                        10:30
+                    </div>
+                    <div class="path_city">
+                        北京
+                    </div>
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1888
+                </div>
+                <div class="price_btn">
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1222
+                </div>
+                <div class="price_btn">
+
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1111
+                </div>
+                <div class="price_btn">
+
+                </div>
+            </li>
+        </ul>
+        <div class="tbody_book">
+                <div class="plane_index book_page float_l">
+                </div>
+                <input type="botton" name="" class="book_btn float_r" value="预定">
+                <div class="price_index book_page float_r">
+                </div>
+        </div>
+<!-- 航班3 -->
+        <ul class="tbody">
+            <li class="tbody_path">
+
+                <div class="path_wrapper float_l">
+                    <div class="path_time">
+                        07:30
+                    </div>
+                    <div class="path_city">
+                        广州
+                    </div>
+                </div>
+                <div class="plane_wrapper float_l">
+                    <div class="plane_flight">
+                        cz4300
+                    </div>
+                    <div class="plane_model">
+                        波音747
+                    </div>
+                </div>
+                <div class="path_wrapper float_l">
+                    <div class="path_time font30px">
+                        10:30
+                    </div>
+                    <div class="path_city">
+                        北京
+                    </div>
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥2333
+                </div>
+                <div class="price_btn">
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1111
+                <div class="price_btn">
+
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥999
+                </div>
+                <div class="price_btn">
+
+                </div>
+            </li>
+
+        </ul>
+        <div class="tbody_book">
+                <div class="plane_index book_page float_l">
+                </div>
+                <input type="botton" name="" class="book_btn float_r" value="预定">
+                <div class="price_index book_page float_r">
+                </div>
+        </div>
+<!-- 航班4 -->
+        <ul class="tbody">
+            <li class="tbody_path">
+
+                <div class="path_wrapper float_l">
+                    <div class="path_time">
+                        07:30
+                    </div>
+                    <div class="path_city">
+                        广州
+                    </div>
+                </div>
+                <div class="plane_wrapper float_l">
+                    <div class="plane_flight">
+                        cz4300
+                    </div>
+                    <div class="plane_model">
+                        波音747
+                    </div>
+                </div>
+                <div class="path_wrapper float_l">
+                    <div class="path_time font30px">
+                        10:30
+                    </div>
+                    <div class="path_city">
+                        北京
+                    </div>
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1555
+                </div>
+                <div class="price_btn">
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1333
+                </div>
+                <div class="price_btn">
+
+                </div>
+            </li>
+            <li class="tbody_price">
+                <div class="price_num">
+                    ￥1000
+                </div>
+                <div class="price_btn">
+
+                </div>
+            </li>
+
+        </ul>
+        <div class="tbody_book">
+                <div class="plane_index book_page float_l">
+                    经济舱
+                </div>
+                <input type="botton" name="" class="book_btn float_r" value="预定">
+                <div class="price_index book_page float_r">
+                    ￥1190
+                </div>
+        </div>
+    </div>
+<!-- E-价格表 -->
+<!-- S-登录 -->
+    <div>
+        <div id="login">
+        <div class="login_title font20px">
+            <span>会员登录</span>
+            <div class="close_btn">
+            </div>
+        </div>
+        <div class="login_content">
+            <form action="index_submit" method="get" accept-charset="utf-8"  class="login_form">
+                <div class="login_page">
+                    <div class="login_img_wrapper">
+                        <div class="login_img">
+                        </div>
+                    </div>
+                    <input type="text" name="" class="login_input"><br>
+                </div>
+                <div class="login_page">
+                    <div class="login_img_wrapper">
+                        <div class="login_password">
+
+                        </div>
+                    </div>
+                    <input type="text" name="" class="login_input"><br>
+                </div>
+                <span class="float_r"><a href="#" style="margin-bottom:10px;">忘记密码</a></span><br>
+                <input type="submit" name="" value="登录" class="login_btn"><br><br>
+                <span class="float_r" ><a href="#" class="register font16px">我要去注册</a></span><br>
+            </form>
+            <form action="index_submit" method="get" accept-charset="utf-8" class="register_form">
+                <span>账号:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>密码:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>姓名:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>性别:</span>&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="male" checked="checked">男&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="female">女<br>
+                <span>身份证号码:</span>&nbsp;<input type="text" name="" class="register_input_id"><br>
+                <span>手机号码:</span>&nbsp;<input type="text" name="" class="register_input_tel"><br>
+                <input type="submit" name="" value="注册" class="login_btn"><br>
+                <div class="provisions gray">
+                    <input type="checkbox" name="" checked="checked">
+                    我已阅读并同意 <a href="#">服务条款</a>
+                </div>
+                <a href="#" class="ihavaaccount font16px float_r">我已经有账号</a><br><br>
+            </form>
+        </div>
+    </div>
+    </div>
+<!-- E-登录 -->
+<!-- S-页脚 -->
+<footer class="footer">
+            Copyright(C)1997-2017 胜利航空股份有限公司 版权所有 粤ICP备05053330号
+</footer>
+<!-- E-页脚 -->
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

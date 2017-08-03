@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html manifest="manifest/local.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>航空管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+<!-- S=标题 -->
+    <header id="title">
+        <div class="title_content">
+            <div class="float_l ">
+                <ul >
+                    <li><a href="#" class="login">亲，请登录</a></li>
+                    <li><a href="#" class="register_btn">注册</a></li>
+                </ul>
+            </div>
+            <div class="float_r">
+                <ul>
+                    <li><a href="myflight.html">我的航班</a></li><span class="title_line"></span>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- E=标题 -->
+<!-- S-搜索栏 -->
+    <div id="search">
+        <div class="search_wrapper float_r">
+            <input type="text" name="" value="" placeholder="请输入关键字" class="search_bar float_l"><input type="submit" name="" value="搜索" class="search_btn white float_l">
+        </div>
+    </div>
+<!-- E-搜索栏 -->
+<!-- S-导航栏 -->
+    <nav id="nav">
+        <ul  class="font16px">
+            <li class="nav_tag"><a href="#">首页</a></li><li class="nav_tag">
+            <a href="#">预定行程</a></li><li class="nav_tag">
+            <a href="#">服务大厅</a></li><li class="nav_tag">
+            <a href="#">停班时间</a></li><li class="nav_tag">
+            <a href="#">购票安全</a></li><li class="nav_tag">
+            <a href="#">出行帮助</a></li>
+        </ul>
+    </nav>
+<!-- E-导航栏 -->
+<!-- S-主体 -->
+    <div class="main">
+        <!-- S-广告 -->
+        <div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+
+                </ol>
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/banner_1.jpg" alt="广告1">
+                    </div>
+                    <div class="item">
+                        <img src="images/banner_2.jpg" alt="广告2">
+                    </div>
+                    <div class="item">
+                        <img src="images/banner_3.jpg" alt="广告3">
+                    </div>
+                    <div class="item">
+                        <img src="images/banner_4.jpg" alt="广告4">
+                    </div>
+                    <div class="item">
+                        <img src="images/banner_5.jpg" alt="广告5">
+                    </div>
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+                <a class="carousel-control left" id="arrow" href="#myCarousel"
+                   data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" id="arrow" href="#myCarousel"
+                   data-slide="next">&rsaquo;</a>
+            </div>
+        </div>
+        <!-- E-广告 -->
+        <!-- S-菜单 -->
+        <div id="subnav">
+            <div class="subnav_left float_l">
+                <ul>
+                    <li class="subnav_book subnav_left_bright">预&nbsp;&nbsp;&nbsp;定</li>
+                    <li class="subnav_service">服&nbsp;&nbsp;&nbsp;务</li>
+                    <li class="subnav_tour">旅&nbsp;&nbsp;&nbsp;游</li>
+                    <li class="subnav_imfor">信&nbsp;&nbsp;&nbsp;息</li>
+                    <li class="subnav_mobile">移&nbsp;动&nbsp;端</li>
+                    <li class="subnav_team">团&nbsp;&nbsp;&nbsp;队</li>
+                </ul>
+            </div>
+            <div class="subnav_right float_r">
+                <div class="subnav_box">
+                    <div class="subnav_right_top">
+                        <ul>
+                        <li class="subnav_ticket subnav_right_bright">机票</li>
+                        <li class="subnav_hotel">酒店</li>
+                        <li class="subnav_car">用车</li>
+                        <li class="subnav_visa">签证</li>
+                        </ul>
+                    </div>
+                    <div class="subnav_right_centent">
+                        <form action="book_ticket.htm" method="get" accept-charset="utf-8">
+                            出发城市 &nbsp;<input type="text" name="" value="北京" class="start_date"><br>
+                            到达城市 &nbsp;<input type="text" name="" value="上海" class="start_date"><br>
+                            出发日期 &nbsp;<input type="date" value="2015-09-24" class="start_date" /><br>
+                            <div>
+                            </div>
+                            <input type="submit" value="立即查询" name="" class="subnav_seek_btn">
+                        </form>
+
+                        <div class="unfinish">
+                        正在开发中
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- E-菜单 -->
+    </div>
+<!-- E-主体 -->
+<!-- S-登录 -->
+    <div>
+        <div id="login">
+        <div class="login_title font20px">
+            <span>会员登录</span>
+            <div class="close_btn">
+            </div>
+        </div>
+        <div class="login_content">
+            <form action="index_submit" method="get" accept-charset="utf-8"  class="login_form">
+                <div class="login_page">
+                    <div class="login_img_wrapper">
+                        <div class="login_img">
+                        </div>
+                    </div>
+                    <input type="text" name="" class="login_input"><br>
+                </div>
+                <div class="login_page">
+                    <div class="login_img_wrapper">
+                        <div class="login_password">
+                    </div>
+                    </div>
+                    <input type="text" name="" class="login_input"><br>
+                </div>
+                <span class="float_r"><a href="#" style="margin-bottom:10px;">忘记密码</a></span><br>
+                <input type="submit" name="" value="登录" class="login_btn"><br><br>
+                <span class="float_r" ><a href="#" class="register font16px">我要去注册</a></span><br>
+            </form>
+            <form action="index_submit" method="get" accept-charset="utf-8" class="register_form">
+                <span>账号:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>密码:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>姓名:</span>&nbsp;<input type="text" name="" class="register_input"><br>
+                <span>性别:</span>&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="male" checked="checked">男&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="female">女<br>
+                <span>身份证号码:</span>&nbsp;<input type="text" name="" class="register_input_id"><br>
+                <span>手机号码:</span>&nbsp;<input type="text" name="" class="register_input_tel"><br>
+                <input type="submit" name="" value="注册" class="login_btn"><br>
+                <div class="provisions gray">
+                    <input type="checkbox" name="" checked="checked">
+                    我已阅读并同意 <a href="#">服务条款</a>
+                </div>
+                <a href="#" class="ihavaaccount font16px float_r">我已经有账号</a><br><br>
+            </form>
+        </div>
+    </div>
+    </div>
+
+<!-- E-登录 -->
+<!-- S-页脚 -->
+<footer class="footer">
+            Copyright(C)1997-2017 胜利航空股份有限公司 版权所有 粤ICP备05053330号
+</footer>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="manifest/local.js"></script>
+</body>
+</html>
